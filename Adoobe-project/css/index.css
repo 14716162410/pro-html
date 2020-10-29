@@ -1,0 +1,84 @@
+.logo_size{
+	width: 24px;
+	height: 60px;
+}
+a:hover{
+	text-decoration: none;
+}
+.nav-item{
+	height: 60px;
+	line-height: 60px;
+}
+.nav-item:hover{
+	background: rgba(230,230,220,0.3);
+}
+.font_size{
+	font-size: 14px;
+}
+.line_height{
+	line-height: 4.5;
+}
+.search_img_size{
+	width: 24px
+}
+.mt_20{
+	margin-top: 20px;
+}
+.nav_width{
+	width: 40rem
+}
+.nav_ref{
+	position: relative;
+	min-width: 1320px;
+	height: 60px;
+	z-index: 99;
+}
+.logo_abs{
+	position: absolute;
+	top: 0px;left: 10%;
+	margin-left: 10px;
+}
+.nve_abs{
+	position: absolute;
+	top: 0px;left: 33%;
+}
+.login_abs{
+	position: absolute;
+	top: 0px;left: 85%;
+}
+.mt_img{
+	margin-top: -70px;
+	background: url(../img/a.jpg) no-repeat;
+	min-width: 1320px;
+	width: 100%;
+	height: 100%;
+	background-size: 100%;
+	position: relative;
+}
+.text_size{
+	width: 543px;
+	max-width: 543px;
+	min-height: auto;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
+.text_size>p:nth-child(1){
+	font-size: 42px;
+	font-weight: bold
+}
+.text_size>p:not(:nth-child(1)){
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 500;
+}
+.btn_detail{
+				position: absolute;
+				top: 55%;
+				left: 20%;
+				min-height: 32px;
+				border: 2px solid #fff;
+				border-radius: 1rem;
+				font-weight: 700;
+				padding: 4px 14px;
+			}

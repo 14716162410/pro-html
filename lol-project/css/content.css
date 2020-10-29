@@ -1,0 +1,162 @@
+/*--------------------- 轮播图 */
+
+.slideshow {
+    display: inline-block;
+    background: #eee;
+    width: 820px;
+    height: 380px;
+    text-align: center;
+}
+
+.slideshow>div {
+    width: 820px;
+    height: 340px;
+    overflow: hidden;
+    position: relative;
+    top: -35px;
+    left: 0px;
+}
+
+.slideshow ul {
+    position: relative;
+    top: -35px;
+    left: 0px;
+}
+
+.slideshow ul li {
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    width: 164px;
+    background: #e3e2e2;
+    border-bottom: 2px solid transparent;
+    z-index: 119;
+}
+
+.slideshow ul li>a {
+    color: #ab8e66;
+}
+
+.slideshow ul li:hover {
+    border-bottom: 2px solid #cea861;
+    background: #fff
+}
+
+
+/*--------------------- end */
+
+
+/*--------------------- 公告 */
+
+.notice {
+    display: inline-block;
+    width: 496px;
+    height: 380px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.content::after {
+    content: "";
+    display: table;
+}
+
+.notice ul {
+    position: absolute;
+    top: 0px;
+    height: 35px;
+    border-bottom: 1px #e0e2e2 solid;
+    padding: 3px 0;
+}
+
+.notice ul li {
+    float: left;
+    width: 40px;
+    height: 37px;
+    margin-right: 74px;
+    line-height: 37px;
+}
+
+.notice ul #last {
+    margin-right: 0px;
+}
+
+.notice ul li>a {
+    font-size: 18px;
+    color: #676767;
+}
+
+.notice ul li>a:hover {
+    font-size: 18px;
+    color: #1da6ba;
+    font-weight: 600
+}
+
+.notice ul li:hover {
+    border-bottom: 2px solid #1da6ba
+}
+
+.notice table {
+    width: 496px;
+    height: 300px;
+    position: absolute;
+    top: 40px;
+}
+
+.notice tr {
+    border-bottom: 2px solid #e0e2e2;
+    color: #424242;
+    font-size: 14px
+}
+
+.notice tr td>a {
+    color: #424242;
+    font-size: 14px
+}
+
+.td_left {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.td_one {
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #c5ab86;
+    font-size: 12px;
+    color: #bb9a6c;
+    margin-top: 10px
+}
+
+.notice tr .td_time {
+    color: #9d9d9d;
+}
+
+.notice .news_one td>a {
+    font-size: 22px;
+    color: #0da0b4;
+    font-weight: 600;
+}
+.notice .news_one>td {
+    padding: 10px
+}
+
+.notice .read_btn {
+    display: block;
+    position: relative;
+    top: 340px;
+    right: 0px;
+    width: 496px;
+    height: 40px;
+    color: #676767;
+    background: #e3e2e2;
+    line-height: 40px;
+}
+
+.notice .read_btn>span {
+    color: #7ea1a6
+}
+
+
+/*--------------------- end */

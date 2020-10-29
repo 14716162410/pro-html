@@ -1,0 +1,106 @@
+/*------------- 新英雄 新皮肤 */
+
+.new-hero {
+    width: 402px;
+    height: 254px;
+    background: url(../img/champion-01.jpg);
+}
+.new-skin {
+    width: 402px;
+    height: 254px;
+    background: url(../img/champion-02.jpg);
+}
+.new-hero>i{
+    display: block;
+    position: absolute;
+    background: url(../img/pic-mask-0.png);
+    width: 100%;
+    height: 133px;
+    bottom: 0px
+}
+.new-skin>p,.new-hero>p{
+    display: block;
+    background: #000;
+    color: #cdbe91;
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top:10px;left: 10px
+}
+.new-skin>h2,.new-hero>h2{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #cdbe91;
+    position: absolute;
+    bottom: 35px;
+    padding: 0 17px;
+    
+}
+.new-skin>span,.new-hero>span{
+    box-sizing: border-box;
+    color: #cfcfcf;
+    position: absolute;
+    bottom: 16px;
+    padding: 0 17px;
+    font-size: 14px
+}
+
+/*------------- end  */
+
+/*------------- 版本导航  */
+
+.version {
+    width: 469px;
+    height: 255px;
+}
+.version>div:nth-child(1),.version>div:nth-child(2){
+    position: absolute;
+    width: 240px;
+    height: 120px;
+}
+.version>div:nth-child(1){
+    background: url(../img/champion-03.jpg);
+    top: 0px
+}
+.version>div:nth-child(2){
+    background: url(../img/champion-04.jpg);
+    bottom: 0px;
+}
+.version>div:nth-child(3){
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    width: 242px;
+    height: 180px;
+    background: url(../img/champion-05.png);
+}
+.version>a{
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;right: -30px;
+    width: 239px;
+    height: 58px;
+    font-size: 16px;
+    color: #fff;
+    background: url(../img/img-icon/index-spr.png) -193px -253px;
+    text-align: center;
+    line-height: 58px
+}
+.week-left-icon{
+    display: inline-block;
+    width: 20px;height: 9px;
+    margin-right: 10px;
+    background: url(../img/img-icon/index-spr.png) -531px -226px;
+}
+.week-right-icon{
+    display: inline-block;
+    width: 20px;height: 9px;
+    margin-left: 10px;
+    background: url(../img/img-icon/index-spr.png) -505px -226px;
+}
+/*------------- end  */

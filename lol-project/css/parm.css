@@ -1,0 +1,88 @@
+.t_bg{
+    height: 360px;
+    width: 100%;
+    background: url(../img/h_bg.jpg) no-repeat;
+}
+.t_bg>div{
+    margin: auto;
+    width: 100%;
+    background: linear-gradient(to bottom,#00000056,#00000011);
+    
+}
+.head_nav{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1358px;
+    min-width: 1230px;
+    height: 78px;
+    padding-top: 10px;
+}
+/* -----------------logo */
+.t_bg .head_nav a{
+    width: 132px;
+    float: left;
+    margin-right: 50px;
+}
+
+/*-------------------end  */
+
+/* ----------------导航栏 */
+.head_nav>ul{
+    float: left;
+    width: 55%;
+    height: 20px;
+    padding: 18px;
+}
+ul li{
+    float: left;
+    margin-top: -10px;
+    height: 78px;
+    width: 13%;
+    margin-left: 40px
+}
+ul li a span{
+    width: 160px;
+    height: 20px;
+    font-size: 18px;
+    color: #fff
+}
+ul li span>a{
+    font-size: 12px;
+    color: #aeaeae;
+}
+/*---------------------end */
+/*---------------------btn */
+.btn{
+    width: 100%;
+    max-width: 1358px;
+    min-width: 1230px;
+    margin-left: 880px;
+    margin-top: 220px
+}
+.btn button{
+    width: 160px;
+    height: 40px;
+    border: 2px solid #c59207;
+    background: rgba(0, 0, 0, 0.5   );
+    margin-right: 80px
+}
+.btn button a{
+    color: #c59207;
+}
+.btn .btn_check{
+    border: 1px solid rgb(221, 220, 132);
+    height: 22px;
+    width: 80px;
+    background: rgba(0, 0, 0, 0.8   )
+}
+.btn .btn_check a{
+    color: rgb(221, 220, 132)
+}
+.btn span{
+    color: #aaa;
+}
+.btn>b{
+    color: #fff
+}
+/*---------------------end */

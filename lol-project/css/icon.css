@@ -1,0 +1,123 @@
+.riot-icon,.tencent-icon,.user-border-icon,.code-icon>i,.search-icon>i{
+    background: url(../img/img-icon/topfoot-spr.png);
+    display: inline-block;
+}
+.icon-kh,.icon-fhcx,.icon-yxzl,.icon-xgzd,.icon-tft,.icon-101,.icon-yz,.icon-wxbd,.hot-active-icon>i,.video-center-icon>i,.math-center-icon>i,.hero-data-icon>i,.fanart-icon>i,.polo-icon>i,.right-arrows-blue-icon,.right-arrows-yellow-icon,.new-icon{
+    background: url(../img/img-icon/comm-spr.png);
+    display: inline-block;
+}
+.icon-kh,.icon-fhcx,.icon-yxzl,.icon-xgzd,.icon-tft,.icon-101,.icon-yz,.icon-wxbd{
+    width: 22px;
+    height: 20px;
+    margin: 0px 5px -3px 0;
+}
+.right-arrows-blue-icon,.right-arrows-yellow-icon{
+    width: 15px;height: 9px;margin-left: 5px; 
+}
+.hot-active-icon>i,.video-center-icon>i ,.math-center-icon>i,.hero-data-icon>i{
+    width: 20px;
+    height: 25px;
+}
+.new-icon{
+    background-position: -301px -46px;
+    width: 29px;
+    height: 14px;
+}
+.hot-active-icon>i {
+    background-position: 177px -299px;
+}
+
+.video-center-icon>i {
+    background-position: -262px -99px;
+}
+.right-arrows-blue-icon{
+    background-position: 180px -127px;
+}
+.right-arrows-yellow-icon{
+    background-position: -342px -99px;
+}
+.math-center-icon>i {
+    background-position: -220px -46px;
+}
+
+.hero-data-icon>i {
+    background-position: -269px -72px;
+}
+
+.fanart-icon>i {
+    width: 24px;
+    height: 20px;
+    background-position: -258px -12px;
+}
+
+.polo-icon>i {
+    width: 33px;
+    height: 29px;
+    background-position: -193px -12px;
+}
+
+.search-icon>i {
+    width: 21px;
+    height: 21px;
+    background-position: -381px -39px;
+}
+
+.code-icon>i {
+    width: 21px;
+    height: 24px;
+    background-position: -303px -84px;
+}
+
+.user-border-icon {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 6px;
+    right: 218px;
+    background-position: -216px -117px;
+}
+
+.tencent-icon {
+    width: 189px;
+    height: 34px;
+    background-position: -216px 0;
+}
+
+.riot-icon {
+    width: 82px;
+    height: 28px;
+    margin-left: 50px;
+    background-position: -216px -84px;
+}
+
+.icon-kh {
+    background-position: -316px -12px;
+}
+
+.icon-fhcx {
+    background-position: 175px -72px;
+}
+
+.icon-yxzl {
+    background-position: -343px -12px;
+}
+
+.icon-xgzd {
+    background-position: -193px -72px;
+}
+
+.icon-tft {
+    background-position: -280px -125px;
+}
+
+.icon-101 {
+    background-position: -371px -12px;
+}
+
+.icon-yz {
+    background-position: -274px -46px;
+}
+
+.icon-wxbd {
+    background-position: -193px -46px;
+}

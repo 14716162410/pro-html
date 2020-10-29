@@ -1,0 +1,44 @@
+.console {
+    box-sizing: border-box;
+    width: 1358px;
+    height: 1191px;
+    margin: 0px auto;
+    position: relative;
+    left: 5px;
+}
+.slideshow,.notice,.hot-act,.game,.new-hero,.new-skin,.version{
+    position: absolute;
+}
+.slideshow {
+    top: 85px;
+    left: 0px;
+}
+
+.notice {
+    top: 45px;
+    right: 0px;
+}
+
+.hot-act {
+    bottom: 400px;
+    left: 0px;
+}
+
+.game {
+    bottom: 400px;
+    right: 0px;
+}
+
+.new-hero {
+    bottom: 100px;
+    left: 0px;
+}
+
+.new-skin {
+    bottom: 100px;
+    left: 420px;
+}
+.version{
+    bottom: 100px;
+    right: 28px;
+}
